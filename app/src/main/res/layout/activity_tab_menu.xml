@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/res_roboto_medium"
+        android:text="@string/txt_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_title_toolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/mToolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mToolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.suitcore.helper.NonSwipeableViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewOverlay"
+        app:layout_constraintTop_toBottomOf="@+id/mToolbar" />
+
+    <View
+        android:id="@+id/viewOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/linBottomNav"
+        android:background="@drawable/bg_overlay_light_up"
+        app:layout_constraintBottom_toTopOf="@+id/linBottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include
+        android:id="@+id/linBottomNav"
+        layout="@layout/layout_bottom_menu"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

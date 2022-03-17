@@ -1,0 +1,54 @@
+[
+  {
+    "id": 17,
+    "position": "mobile",
+    "position_order": 1,
+    "label": "Home",
+    "url": "home",
+    "status": 1,
+    "parent_id": null,
+    "created_at": "2018-08-14T11:40:15+07:00",
+    "updated_at": "2018-08-14T11:40:15+07:00",
+    "created_by": 5,
+    "updated_by": 5
+  },
+  {
+    "id": 18,
+    "position": "mobile",
+    "position_order": 2,
+    "label": "Map Sample",
+    "url": "fragment-1",
+    "status": 1,
+    "parent_id": null,
+    "created_at": "2018-08-14T11:40:42+07:00",
+    "updated_at": "2018-08-14T11:40:42+07:00",
+    "created_by": 5,
+    "updated_by": 5
+  },
+  {
+    "id": 19,
+    "position": "mobile",
+    "position_order": 3,
+    "label": "Fragment 2",
+    "url": "fragment-2",
+    "status": 1,
+    "parent_id": null,
+    "created_at": "2018-08-14T11:41:03+07:00",
+    "updated_at": "2018-08-14T11:41:03+07:00",
+    "created_by": 5,
+    "updated_by": 5
+  },
+  {
+    "id": 20,
+    "position": "mobile",
+    "position_order": 4,
+    "label": "Fragment 3",
+    "url": "fragment-3",
+    "status": 1,
+    "parent_id": null,
+    "created_at": "2018-08-14T11:41:33+07:00",
+    "updated_at": "2018-08-14T11:41:33+07:00",
+    "created_by": 5,
+    "updated_by": 5
+  }
+]

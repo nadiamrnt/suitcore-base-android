@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">SuitCore</string>
+
+
+    <string name="txt_fragment_test">Ini contoh fragment</string>
+    <string name="txt_empty_member">Tidak ada data member</string>
+    <string name="txt_empty_member_content">Tidak ada data member</string>
+
+    <!-- Twitter -->
+
+    <!-- Google -->
+    <string name="google_default_web_client_id">898401888087-tpqokrn96nico2irun0glt2fodeq0ui6.apps.googleusercontent.com</string>
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">1879532772347939</string>
+    <string name="fb_login_protocol_scheme">fb1879532772347939</string>
+    <string name="facebook_request_field">id,name,email,gender,birthday,picture,cover</string>
+
+    <!-- Error API -->
+    <string name="txt_error_connection">Koneksi internet sedang offline</string>
+    <string name="txt_error_unauthorized">Pengguna Tidak Valid</string>
+    <string name="txt_error_forbidden">Forbidden</string>
+    <string name="txt_error_internal_error">Kesalahan server</string>
+    <string name="txt_error_bad_request">Bad Request</string>
+    <string name="txt_error_no_internet_connection">No Internet Connection</string>
+    <string name="txt_error_custom">Something Went Wrong API is not responding properly!</string>
+    <string name="txt_refresh">Muat Ulang</string>
+    <string name="txt_retry">Coba Lagi</string>
+    <string name="txt_error_no_internet">Tidak ada koneksi internet</string>
+    <string name="txt_button_fb_login">Masuk Dengan Facebook</string>
+    <string name="txt_button_twitter_login">Masuk Dengan Twitter</string>
+    <string name="txt_button_google_login">Masuk Dengan Google</string>
+    <string name="txt_show_fragment">Show Fragment</string>
+    <string name="txt_toolbar_search">Cari</string>
+    <string name="txt_hint_input_name">Cari Lokasi</string>
+
+    <string name="txt_title">Judul</string>
+    <string name="txt_menu_one">Anggota</string>
+    <string name="txt_menu_two">Dialog</string>
+    <string name="txt_menu_three">Peta</string>
+    <string name="txt_menu_login_sample">Contoh Login</string>
+    <string name="txt_skip_to_tab_menu">LEWATI KE TAB MENU</string>
+    <string name="txt_skip_to_side_menu">LEWATI KE SIDE MENU</string>
+    <string name="txt_button_login">Masuk</string>
+    <string name="txt_toolbar_home">Beranda</string>
+    <string name="txt_yes">Ya</string>
+    <string name="txt_no">Tidak</string>
+    <string name="txt_image_pop">Image Pop</string>
+    <string name="txt_new_confirm_image">Confirm Image</string>
+    <string name="txt_new_confirmation">Confirmation</string>
+    <string name="txt_new_alert_image">Alert Image</string>
+    <string name="txt_new_alert">Alert</string>
+    <string name="txt_loading">Loading…</string>
+    <string name="txt_loading_with_info">Press back to dismiss</string>
+
+    <!-- In-App Updates -->
+    <string name="txt_update_completed">An update has just been downloaded.</string>
+    <string name="txt_button_restart">Mulai Ulang</string>
+    <string name="txt_change_language">Change Language</string>
+
+</resources>

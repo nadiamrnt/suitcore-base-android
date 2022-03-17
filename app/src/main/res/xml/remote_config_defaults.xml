@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>endpoint_url</key>
+        <value />
+    </entry>
+    <entry>
+        <key>update_type</key>
+        <value>{"update_type":"InAppUpdate","category":"flexible","latest_vcode":0,"messages":""}</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

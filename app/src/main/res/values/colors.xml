@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Color -->
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+
+    <!-- Basic Color -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#878787</color>
+    <color name="black">#000000</color>
+    <color name="green">#009688</color>
+    <color name="blue">#2B637B</color>
+
+    <!-- Grayscale -->
+
+    <!--Transparent-->
+    <color name="black_transparent80">#80000000</color>
+
+</resources>
