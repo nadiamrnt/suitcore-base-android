@@ -1,9 +1,14 @@
 package com.suitcore.feature.palindrome
 
+import com.suitcore.BaseApplication
 import com.suitcore.base.presenter.BasePresenter
 
 class PalindromePresenter : BasePresenter<PalindromeView> {
     private var mvpView: PalindromeView? = null
+
+    init {
+        BaseApplication.applicationComponent.inject(this)
+    }
 
     fun isPalindrome(text: String): Boolean {
         val reverseString = text.reversed()

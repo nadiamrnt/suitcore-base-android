@@ -2,12 +2,15 @@ package com.suitcore.di.component
 
 import com.suitcore.di.module.ApplicationModule
 import com.suitcore.di.scope.SuitCoreApplicationScope
+import com.suitcore.feature.chooseuser.ChooseUserPresenter
 import com.suitcore.feature.event.EventPresenter
 import com.suitcore.feature.event.search.SearchPlacePresenter
 import com.suitcore.feature.login.LoginPresenter
 import com.suitcore.feature.member.MemberPresenter
+import com.suitcore.feature.palindrome.PalindromePresenter
 import com.suitcore.feature.sidemenu.SideMenuPresenter
 import com.suitcore.feature.splashscreen.SplashScreenPresenter
+import com.suitcore.feature.user.UserPresenter
 import com.suitcore.firebase.remoteconfig.RemoteConfigPresenter
 import com.suitcore.onesignal.OneSignalPresenter
 import dagger.Component
@@ -31,4 +34,10 @@ interface ApplicationComponent {
     fun inject(eventPresenter: EventPresenter)
 
     fun inject(sideMenuPresenter: SideMenuPresenter)
+
+    fun inject(palindromePresenter: PalindromePresenter)
+
+    fun inject(chooseUserPresenter: ChooseUserPresenter)
+
+    fun inject(userPresenter: UserPresenter)
 }

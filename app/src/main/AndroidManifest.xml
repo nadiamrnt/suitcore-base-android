@@ -29,6 +29,9 @@
         tools:replace="android:allowBackup"
         tools:targetApi="m">
         <activity
+            android:name=".feature.user.UserActivity"
+            android:exported="false" />
+        <activity
             android:name=".feature.chooseuser.ChooseUserActivity"
             android:exported="false" />
         <activity
